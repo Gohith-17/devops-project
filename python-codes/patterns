@@ -88,3 +88,18 @@ Enter a Number : 4
 1 2 3 
 1 2 
 1 
+
+# Pattern-7
+n=int(input("Enter a Number : "))
+for i in range(n):
+  for j in range(n-i-1):
+    print(" ",end=" ")
+  for k in range(i*2+1):
+    print("*",end=" ")
+  print()
+
+Enter a Number : 4
+      * 
+    * * * 
+  * * * * * 
+* * * * * * * 
