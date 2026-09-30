@@ -149,12 +149,4 @@ for i in range(n):
 
     print()
 	
-Enter a Number : 4
-      * 
-    * * * 
-  * * * * * 
-* * * * * * * 
-* * * * * * * 
-  * * * * * 
-    * * * 
-      * 
+	
